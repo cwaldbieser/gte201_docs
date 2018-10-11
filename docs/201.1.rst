@@ -96,5 +96,79 @@ for us.
 #. Add `basis:student:student_no_class_year` to `ref:student:students`.  How many
    students are there, now?
 
+----------------
+Exercise 201.1.3
+----------------
+
+*Exchange Students*
+
+You campus participates in an exchange program with a sister school.  Students
+from the sister school can take classes at your institution, but never have
+official records in your SIS.  They do however, have a local NetID.  Registration
+is done directly with the registrar and the student's home institution maintains
+the student records.
+
+#. Add `basis:student:exchange_students` to `ref:student:students`.  How many
+   students are there now?
+
+----------------
+Exercise 201.1.4
+----------------
+
+*Transfer Students*
+
+Students who transfer into your campus often need access to systems well ahead
+of SIS data being fully updated.
+
+#. Create a new basis group, `basis:student:transfer_student`.
+#. Add `transfer_student` to `students` with an expiration 60 days out.
+#. Add the following accounts to `transfer_student`:
+
+    * agrady901
+    * alee467
+    * ascott776
+
+#. Check how many students there are, now.  The number of students did not go up
+   by 3 as you might have expected.  Why?  One of the transfer students was
+   already a member of `students`.  Trace the membership on each of the transfer
+   students to determine which accounts already had the `students` subject
+   attribute, and why.
+
+----------------
+Exercise 201.1.5
+----------------
+
+*Change of Status*
+
+Students who leave for a variety of reasons are given a 32 day grace period
+during which they retain student access.  Basis groups for these already exist.
+They include:
+
+* `basis:student:expelled_32_days`
+* `basis:student:resigned_32_days`
+* `basis_student_transferred_32_days`
+
+#. Add these basis groups to `students`.  How many students are there, now?
+
+----------------
+Exercise 201.1.6
+----------------
+
+*Leave of Absence Students*
+
+Student may also obtain a leave of absence for a variety of reasons.  These
+students may or may not return, but retain student access for an extend period
+of time.  Basis groups for leave of absence students already exists:
+
+* `basis:student:loa_4_years` (leave of absence within the last 4 years)
+
+#. Add `loa_4_years` to `students`.  How many students are there, now?
+
+
+
+
+
+
+
 
 .. _Grouper Deployment Guide: https://spaces.at.internet2.edu/display/Grouper/Grouper+Deployment+Guide+Work+-TIER+Program
