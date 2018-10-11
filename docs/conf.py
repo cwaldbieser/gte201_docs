@@ -21,6 +21,7 @@
 
 project = 'GTE201'
 copyright = '2018, Carl Waldbieser'
+html_show_copyright = False
 author = 'Carl Waldbieser'
 
 # The short X.Y version
