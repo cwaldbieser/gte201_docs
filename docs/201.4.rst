@@ -1,0 +1,28 @@
+
+===================================
+GTE 201.4 ACM2 eduPersonEntitlement
+===================================
+
+-------------------
+Learning Objectives
+-------------------
+
+
+--------------
+Lab Components
+--------------
+
+
+--------
+Overview
+--------
+
+
+
+
+
+
+
+
+
+.. _Grouper Deployment Guide: https://spaces.at.internet2.edu/display/Grouper/Grouper+Deployment+Guide+Work+-TIER+Program

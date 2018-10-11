@@ -1,0 +1,28 @@
+
+==============================
+GTE 201.2 Access Policy Groups
+==============================
+
+-------------------
+Learning Objectives
+-------------------
+
+
+--------------
+Lab Components
+--------------
+
+
+--------
+Overview
+--------
+
+
+
+
+
+
+
+
+
+.. _Grouper Deployment Guide: https://spaces.at.internet2.edu/display/Grouper/Grouper+Deployment+Guide+Work+-TIER+Program
